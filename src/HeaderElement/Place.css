@@ -1,0 +1,81 @@
+.beach-main-div{
+  display: flex;
+  /* border:5px inset brown; */
+  align-items: center;
+  margin:20px;
+}
+.beach-div{
+  /* border:5px inset green; */
+  text-align: center;
+  padding: 5px;
+  width: 300px;
+  height: 420px;
+}
+.beach-pics{
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.beach-pics:hover{
+  transform: scale(1.02);
+}
+
+
+/* --------------------- */
+/* 📱 Small devices (Mobile phones) */
+/* --------------------- */
+@media (max-width: 600px) {
+  .beach-main-div {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 15px;
+  }
+
+  .beach-div {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .beach-pics {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* --------------------- */
+/* 📲 Medium devices (Tablets) */
+/* --------------------- */
+@media (min-width: 601px) and (max-width: 992px) {
+  .beach-main-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+  }
+
+  .beach-div {
+    width: 45%;
+    height: auto;
+  }
+
+  .beach-pics {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* --------------------- */
+/* 💻 Large devices (Laptops / Desktops) */
+/* --------------------- */
+@media (min-width: 993px) {
+  .beach-main-div {
+    justify-content: flex-start;
+  }
+
+  .beach-div {
+    width: 300px;
+    height: 420px;
+  }
+}

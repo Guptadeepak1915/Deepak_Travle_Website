@@ -1,0 +1,23 @@
+.beach-main-div{
+  display: flex;
+  /* border:5px inset brown; */
+  align-items: center;
+  margin-left: 30px;
+}
+.beach-div{
+  /* border:5px inset green; */
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+  width: 300px;
+  height: 420px;
+}
+.beach-pics{
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.beach-pics:hover{
+  transform: scale(1.02);
+}

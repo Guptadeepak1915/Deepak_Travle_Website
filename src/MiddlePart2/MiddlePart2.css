@@ -1,0 +1,24 @@
+.footer-nav-elements{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  font-size: 20px;
+ 
+  
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+
+}
+.footer-nav-elements span{
+  padding: 5px;
+  border: 1px inset white;
+  border-radius: 5px;
+  /* font-weight: bold; */
+}
+.footer-nav-elements span:hover {
+ background-color: #F8F5E9;
+ padding: 5px;
+ border-radius: 10px;
+}

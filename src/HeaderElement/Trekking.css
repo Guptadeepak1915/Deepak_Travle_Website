@@ -1,0 +1,83 @@
+.treking-div{
+  /* border: 5px inset brown; */
+  /* display:flex; */
+  justify-content: space-between;
+  width:auto;
+  
+}
+.img-para{
+  /* border: 5px inset red; */
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  
+}
+.para-div{
+  /* border: 5px inset blue; */
+  margin: 10px;
+}
+.img-div{
+  /* border: 5px inset yellow; */
+  margin: 10px;
+  margin-top: 10px;
+  
+}
+.tr-pic{
+width:550px;
+height:500px
+}
+
+
+
+@media (max-width: 600px) {
+  .img-para {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tr-pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .para-div {
+    font-size: 16px;
+    margin: 5px 10px;
+  }
+}
+
+/* --------------------- */
+/* 📲 Tablet (601px – 992px) */
+/* --------------------- */
+@media (min-width: 601px) and (max-width: 992px) {
+  .img-para {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tr-pic {
+    width: 80%;
+    height: auto;
+  }
+
+  .para-div {
+    font-size: 17px;
+    text-align: center;
+  }
+}
+
+/* --------------------- */
+/* 💻 Desktop (Above 992px) */
+/* --------------------- */
+@media (min-width: 993px) {
+  .img-para {
+    flex-direction: row;
+  }
+
+  .tr-pic {
+    width: 550px;
+    height: 500px;
+  }
+}

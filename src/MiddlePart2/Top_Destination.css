@@ -1,0 +1,26 @@
+.Top_destination-main-div{
+  /* border: 5px inset blue; */
+  display: flex;
+  margin:20px;
+  margin-left:40px
+  }
+  .pic-div{
+    /* border:5px inset brown; */
+    width: 300px;
+    height: 420px;
+    text-align: center;
+  }
+  .pics{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 2px;
+  }
+  .pics:hover{
+    transform: scale(1.02);
+  }
+  .para1{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }

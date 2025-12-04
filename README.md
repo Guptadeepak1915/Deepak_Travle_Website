@@ -1,7 +1,6 @@
 
 # ✅ **COMPLETE README.md for Deepak_Travle_Website**
 
-```markdown
 # 🌍 Deepak Travel Website
 
 A modern, responsive **Travel Agency Website** built using **React**.  
@@ -32,7 +31,7 @@ This project is part of my React learning journey and frontend development pract
 ---
 
 ## 📁 Project Structure  
-```
+
 
 Deepak_Travle_Website/
 │
@@ -47,9 +46,7 @@ Deepak_Travle_Website/
 ├── package.json
 └── README.md
 
-````
 
----
 
 ## 🎯 Features  
 - 🌐 Fully **responsive** design  
@@ -59,9 +56,6 @@ Deepak_Travle_Website/
 - 💡 Clean UI and modern layout  
 - ⚡ Built using React components  
 
-(Add or remove features based on your actual project.)
-
----
 
 ## 📥 Installation & Setup (Run Locally)
 

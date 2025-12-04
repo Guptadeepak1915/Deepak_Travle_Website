@@ -34,8 +34,10 @@ const Heading = () => {
               <span><Link to="/trekking" class="link">Trekking</Link></span>
               <span><Link to="/about" class="link">About</Link></span>
               <span><Link to="/contact" class="link">Contact</Link></span>
+            <div className='header-buttons'>
               <Link to="/login"><button class="book-Button">Login</button></Link>
               <Link to="/form"> <button class="book-Button">Book Ticket</button></Link>
+            </div>
             </nav>
             <Routes>
               <Route path="/" element={<Home />} />

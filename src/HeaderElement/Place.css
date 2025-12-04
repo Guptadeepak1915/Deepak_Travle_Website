@@ -7,13 +7,13 @@
 .beach-div{
   /* border:5px inset green; */
   text-align: center;
-  padding: 5px;
+  /* padding: 5px; */
   width: 300px;
   height: 420px;
 }
 .beach-pics{
-  width: 250px;
-  height: 350px;
+  width: 230px;
+  height: 320px;
   border-radius: 10px;
   margin: 10px;
 }

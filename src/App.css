@@ -58,8 +58,8 @@ body{
   /* margin: 20px; */
   margin-left: 20px;
   /* background-color: pink; */
-  font-size: 25px;
-  padding: 10px;
+  font-size: 20px;
+  padding: 5px;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 10px;
 }
@@ -68,11 +68,11 @@ body{
   color: #0d1b2a;
   /* opacity: 50%; */
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
 }
 .header-buttons{
   display: inline;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 .book-Button{
   border: none;

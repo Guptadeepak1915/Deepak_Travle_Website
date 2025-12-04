@@ -30,24 +30,6 @@ This project is part of my React learning journey and frontend development pract
 
 ---
 
-## 📁 Project Structure  
-
-
-Deepak_Travle_Website/
-│
-├── public/            # Static files (images, icons, index.html)
-├── src/
-│   ├── components/    # Reusable UI components
-│   ├── pages/         # Different screens/pages
-│   ├── assets/        # Website images
-│   ├── App.js         # Main app component
-│   └── index.js       # React entry file
-│
-├── package.json
-└── README.md
-
-
-
 ## 🎯 Features  
 - 🌐 Fully **responsive** design  
 - 🧭 Navigation bar 

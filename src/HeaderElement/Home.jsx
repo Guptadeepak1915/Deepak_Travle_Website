@@ -11,17 +11,7 @@ import Top_Destination from '../MiddlePart2/Top_Destination'
 const Home = () => {
   return (
     <div class="Container">
-      <div class="front-view"></div>
-
-      {/* <div className='slider'>
-          <div className='slides'>
-            <img src='/src/img/andaman.jpg' alt='andamand pic'/>
-            <img src='/src/img/Goa2.jpg' alt='goa pic'/>
-            <img src='/src/img/kerala.jpg' alt='kerala pic'/>
-            <img src='/src/img/kashmir.jpg' alt='manali pic'/>
-          </div>
-        </div> */}
-        
+      <div class="front-view"></div>   
       {/* <Body /> */}
 
       <div class="heading-div2">
@@ -36,7 +26,8 @@ const Home = () => {
 
       <Middle2 />
       <br/><br/>
-      {/* <div>
+      
+       {/* <div>
         <nav class="footer-nav-elements">
           <span><Link to="top-destination" class="link">TOP DESTINASTION</Link></span>
           <span><Link to="beach-vacation" class="link">BEACH VACATION</Link></span>
@@ -45,7 +36,8 @@ const Home = () => {
           <span><Link to="indian-pilgrimes" class="link">INDIAN PILGRIMAGES</Link></span>
           <span><Link to="stay-like-royal" class="link">STAY LIKE ROYAL</Link></span>
         </nav>
-      </div> */}
+
+      </div>  */}
 
       <Footer />
 

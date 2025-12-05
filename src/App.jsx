@@ -15,17 +15,18 @@ import Login from './HeaderElement/Login'
 
 const Heading = () => {
   return (
-    <div style={{marginLeft:"0px"}}>
-      <div class="heading-div1">
-        <h1>TRAVEL ALL OVER INDIA</h1>
+    <div>
+      <div className='logo-heading-div'>
+          <div class="logo-div">
+            <img src={logo} alt="logo" class="logo" />
+          </div>
+          <div class="heading-div1">
+            <h1>TRAVEL ALL OVER INDIA</h1>
+          </div>
       </div>
 
-      <div class="logo-nav">
-        <div class="logo-div">
-          <img src={logo} alt="Note Found" class="logo" />
-        </div>
-        
-        <div class="nav-elements-div">
+      
+      <div class="nav-elements-div">
           <Router>
             <nav class="nav-elements">
               <span><Link to="/" class="link">Home</Link></span>
@@ -51,7 +52,6 @@ const Heading = () => {
             </Routes>
           </Router>
         </div>
-      </div>
     </div>
   )
 }

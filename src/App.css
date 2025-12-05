@@ -6,20 +6,28 @@ body{
   backdrop-filter: blur(12px);
 
 }
+.logo-heading-div{
+  /* border: 1px inset wheat; */
+  display:flex;
+  align-items: center;
+  position: relative;
+
+}
 .heading-div1{
-  /* background-color:red; */
+  /* border: 2px inset red; */
   padding: 0px;
-  text-align: center;
   border-radius: 10px;
-  
-  
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
 }
 .heading-div1 h1{
-  background: linear-gradient(45deg,orange,rgb(187, 6, 154));
+  background-image: url(./img/jaisalmer.jpg);
+  background-size: cover;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .link{
   text-decoration: none;
@@ -27,15 +35,9 @@ body{
 }
 
 .logo-div{
-  /* text-align: left; */
-  width: 100%;
+  /* border: 1px inset yellow; */
+  width: 10%;
   height: 100%;
-  /* margin-left: 10px; */
-}
-.logo-nav{
-  display:inline;
-  /*justify-content:space-evenly;*/
-  /* background-color: pink; */
 }
 .logo{
   display:block;
